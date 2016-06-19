@@ -12,6 +12,8 @@
 		CD3327381D16384800976FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3327361D16384800976FD9 /* Main.storyboard */; };
 		CD33273A1D16384800976FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3327391D16384800976FD9 /* Assets.xcassets */; };
 		CD33273D1D16384800976FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD33273B1D16384800976FD9 /* LaunchScreen.storyboard */; };
+		CD3327451D16387D00976FD9 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3327441D16387D00976FD9 /* Datos.swift */; };
+		CD3327481D163DDE00976FD9 /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3327471D163DDE00976FD9 /* ColoresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		CD3327391D16384800976FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD33273C1D16384800976FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD33273E1D16384800976FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3327441D16387D00976FD9 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		CD3327461D16392500976FD9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		CD3327471D163DDE00976FD9 /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1D09631D164DD400FCC986 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				CD3327471D163DDE00976FD9 /* ColoresStruct.swift */,
+				CD3327441D16387D00976FD9 /* Datos.swift */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
 		CD3327261D16384700976FD9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +68,14 @@
 		CD3327311D16384800976FD9 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				CD1D09631D164DD400FCC986 /* Clases */,
 				CD3327321D16384800976FD9 /* AppDelegate.swift */,
 				CD3327341D16384800976FD9 /* ViewController.swift */,
 				CD3327361D16384800976FD9 /* Main.storyboard */,
 				CD3327391D16384800976FD9 /* Assets.xcassets */,
 				CD33273B1D16384800976FD9 /* LaunchScreen.storyboard */,
 				CD33273E1D16384800976FD9 /* Info.plist */,
+				CD3327461D16392500976FD9 /* MyPlayground.playground */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -138,6 +154,8 @@
 			files = (
 				CD3327351D16384800976FD9 /* ViewController.swift in Sources */,
 				CD3327331D16384800976FD9 /* AppDelegate.swift in Sources */,
+				CD3327481D163DDE00976FD9 /* ColoresStruct.swift in Sources */,
+				CD3327451D16387D00976FD9 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +305,7 @@
 				CD3327431D16384800976FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
